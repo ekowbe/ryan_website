@@ -2,7 +2,7 @@
 
 import sqlite3
 from sys import argv, exit, stderr
-from cases_app import app
+from app import app
 
 def main():
     
