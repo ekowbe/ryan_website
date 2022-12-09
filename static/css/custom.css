@@ -1,0 +1,114 @@
+div.container > a > h3 {
+  color: black;
+}
+
+div.container > a > h3:hover {
+  color: red !important;
+}
+
+/* Carousel styling */
+#introCarousel,
+.carousel-inner,
+.carousel-item,
+.carousel-item.active {
+  height: 100vh;
+}
+
+.carousel-item:nth-child(1) {
+  background-image: url('../img/carousel/whitehouse.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item:nth-child(2) {
+  background-image: url('../img/carousel/flag.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item:nth-child(3) {
+  background-image: url('../img/carousel/bricks.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Title */
+.banner-title {
+  font-family: "Cormorant Garamond Medium", "Times New Roman", Times, serif;
+  font-size: 8rem;
+}
+
+.work-title {
+  font-family: "Cormorant Garamond Medium", "Times New Roman", Times, serif;
+  font-size: 5rem;
+  color: black;
+}
+
+.cormorant {
+  font-family: "Cormorant Garamond Medium", "Times New Roman", Times, serif;
+}
+
+
+
+.p-text{
+  font-size: x-large;
+  color: black;
+  line-height: normal;
+}
+
+.my-nav {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+/* Menu */
+.menu-content {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.navbar-custom.scrolled {
+  background-color: rgb(0, 0, 0) !important;
+  transition: background-color 100ms linear;
+}
+
+
+.bg-carousel {
+  position: absolute;
+  top: 0;
+  margin-top: -70px;
+}
+
+.header-logo {
+  width: 160px;
+  margin: 0;
+  padding: 0;
+}
+
+.search-icon {
+  width: 25px;
+  height: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-icon {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  padding: 0;
+  margin-left: 200px;
+}
+
+#nav-right-item {
+  width: 15px;
+  height: 15px;
+
+  padding: 0;
+  margin-right: 200px;
+}
